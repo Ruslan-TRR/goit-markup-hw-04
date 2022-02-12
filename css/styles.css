@@ -109,6 +109,7 @@ img {
 .topline:focus {
   color: var(--accent-color);
 }
+
 .menu-link {
   font-style: normal;
   font-weight: 500;
@@ -117,22 +118,50 @@ img {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
+.envelope:hover .letter {
+  fill: #2196f3;
+}
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 7px;
+}
+.smartphone:hover .letter  {
+  fill: #2196f3;
+}
+.smartphone {
+  width: 10px; 
+  height: 16px;
+  margin-right: 10px;
+}
+  
+
+
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: var(--accent-color); 
 }
 /*------------------ main---------------------------*/
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background: rgba(47, 48, 58, 0.4);
-  background-image: linear-gradient(
-           rgba(47, 48, 58, 0.4),
-           rgba(47, 48, 58, 0.4)
-     ),
-  url(../img/Команда.jpg)
+  
 }
+.overlay{
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+),url(../img/Команда.jpg)
 
+}
 
 .cap-link {
   margin: 0 auto;
@@ -197,6 +226,39 @@ img {
 .menu-main:not(:last-child) {
   margin-right: 30px;
 }
+.antenna {
+  padding-left: 100px;
+  padding-top: 25px;
+  width: 270px; 
+  height: 120px;
+  background: #f5f4fa;
+  margin-bottom: 30px;
+}
+.clock {
+  padding-left: 100px;
+  padding-top: 25px;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  margin-bottom: 30px;
+}
+.diagram {
+  padding-left: 100px;
+  padding-top: 25px;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  margin-bottom: 30px;
+}
+.astronaut {
+padding-left: 100px;
+padding-top: 25px;
+width: 270px;
+height: 120px;
+background: #f5f4fa;
+margin-bottom: 30px;
+}
+
 .main-link-title {
   margin-bottom: 10px;
 }
